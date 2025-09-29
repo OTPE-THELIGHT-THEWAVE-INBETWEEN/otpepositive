@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTPE Positive - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="threeContainer"></div>
+  <div id="fallbackMessage" style="display:none;">
+    <canvas id="diamondCanvas"></canvas>
+  </div>
+  <div id="chatbot"></div>
+  <div class="lang-selector">
+    <select id="langSelect">
+      <option value="en">EN</option>
+      <option value="ar">AR</option>
+      <option value="fr">FR</option>
+      <option value="zh">ZH</option>
+    </select>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.156.1/build/three.min.js"></script>
+  <script src="js/diamond.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/chatbot.js"></script>
+  <script src="js/translate.js"></script>
+</body>
+</html>
